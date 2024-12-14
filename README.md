@@ -54,8 +54,6 @@ git clone https://github.com/yourusername/shopify-fastapi-integration.git
 cd shopify-fastapi-integration
 ```
 
-````
-
 ### 2. Create a Virtual Environment
 
 It's recommended to use a virtual environment to manage dependencies.
