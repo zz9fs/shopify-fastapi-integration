@@ -292,29 +292,6 @@ shopify-fastapi-integration/
   - Ensure that the test database is correctly set up and that fixtures are properly configured.
   - Verify that mocks in integration tests are correctly patching the intended targets.
 
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the Repository**
-2. **Create a New Branch**
-   ```bash
-   git checkout -b feature/YourFeatureName
-   ```
-3. **Commit Your Changes**
-   ```bash
-   git commit -m "Add feature X"
-   ```
-4. **Push to the Branch**
-   ```bash
-   git push origin feature/YourFeatureName
-   ```
-5. **Open a Pull Request**
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ```
 
 ```
