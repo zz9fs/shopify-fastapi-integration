@@ -1,0 +1,25 @@
+# docker-compose.yml
+
+version: "3.8"
+
+services:
+  db:
+    image: postgres:14
+    container_name: shopify_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: shopify_user
+      POSTGRES_PASSWORD: shopify_pass
+      POSTGRES_DB: shopify_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    networks:
+      - shopify_network
+
+volumes:
+  db_data:
+
+networks:
+  shopify_network:
